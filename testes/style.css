@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(204, 239, 239);
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.container {
+    background-color: aliceblue;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
