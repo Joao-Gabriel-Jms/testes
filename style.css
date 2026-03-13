@@ -1,16 +1,134 @@
 body {
     background-color: rgb(204, 239, 239);
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.titulo {
+    text-align: center;
+    padding: auto;
+    margin-top: -30px;
+}
 img {
-    width: 300px;
-    display: block;
-    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    position: relative;
+    
 }
 .container {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 400px;
-    margin: 50px auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 40px;
     border-radius: 10px;
+}
+.filtros {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding-right: 15px;
+    border-radius: 10px;
+    display: flex;
+}
+.btn {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    margin-top: 15px;
+
+}
+
+.menu {
+    font-size: 35px;
+    font-weight: bold;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 380px;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+.opcoes {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    position: absolute;
+    left: 10%;
+
+
+    
+}
+button {
+ appearance: button;
+ background-color: #1899D6;
+ border: solid transparent;
+ border-radius: 16px;
+ border-width: 0 0 4px;
+ box-sizing: border-box;
+ color: #FFFFFF;
+ cursor: pointer;
+ display: inline-block;
+ font-size: 15px;
+ font-weight: 700;
+ letter-spacing: .8px;
+ line-height: 20px;
+ margin: 0;
+ outline: none;
+ overflow: visible;
+ padding: 13px 19px;
+ text-align: center;
+ text-transform: uppercase;
+ touch-action: manipulation;
+ transform: translateZ(0);
+ transition: filter .2s;
+ user-select: none;
+ -webkit-user-select: none;
+ vertical-align: middle;
+ white-space: nowrap;
+}
+
+button:after {
+ background-clip: padding-box;
+ background-color: #6fcdf9;
+ border: solid transparent;
+ border-radius: 16px;
+ border-width: 0 0 4px;
+ bottom: -1px;
+ content: "";
+ left: 0;
+ position: absolute;
+ right: 0;
+ top: 0;
+ z-index: -1;
+}
+
+button:main, button:focus {
+ user-select: auto;
+}
+
+button:hover:not(:disabled) {
+ filter: brightness(1.1);
+}
+
+button:disabled {
+ cursor: auto;
+}
+
+button:active:after {
+ border-width: 0 0 0px;
+}
+
+button:active {
+ padding-bottom: 10px;
 }
