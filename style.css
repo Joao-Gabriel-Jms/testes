@@ -12,7 +12,7 @@ body {
     margin-top: -30px;
 }
 img {
-    width: 400px;
+    width: 100%;
     display: flex;
     margin: auto;
     margin-bottom: 10px;
@@ -44,17 +44,15 @@ img {
 }
 
 .menu {
-    font-size: 35px;
+    font-size: 18px;
     font-weight: bold;
     display: none;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 25px;
-    left: 50%;
-    transform: translateX(-50%);
     z-index: 1000;
-    width: 380px;
-    padding: 25px;
+    top: 20px;
+    width: 400px;
+    height: 150px;
     border-radius: 5px;
     text-align: center;
 }
@@ -62,13 +60,44 @@ img {
     font-size: 25px;
     display: flex;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 100px;
     position: absolute;
     left: 10%;
 
 
     
 }
+
+.mnpreto {
+    background-color: rgb(255, 255, 255);
+    width: 430px;
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 3%;
+    z-index: 2000;
+}
+.mnpreto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.colunapreto {
+    display: grid;
+    object-fit: contain;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 125px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+
+
+
 button {
  appearance: button;
  background-color: #1899D6;

@@ -7,3 +7,12 @@ function filterColors() {
 
   
 }
+function mpreto() {
+    if (document.querySelector('.mnpreto').style.display === 'none') {
+        document.querySelector('.mnpreto').style.display = 'flex';
+    } else {
+        document.querySelector('.mnpreto').style.display = 'none';
+    }
+
+}
+
