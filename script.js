@@ -1,26 +1,30 @@
 function filterColors() {
-    if (document.querySelector('.menu').style.display === 'none') {
-        document.querySelector('.menu').style.display = 'flex';
+    let menu = document.querySelector('.menu');
+
+    if (getComputedStyle(menu).display === 'none') {
+        menu.style.display = 'flex';
     } else {
-        document.querySelector('.menu').style.display = 'none';
+        menu.style.display = 'none';
     }
 
   
 }
 function mpreto() {
-    if (document.querySelector('.mnpreto').style.display === 'none') {
-        document.querySelector('.mnpreto').style.display = 'block';
-    } else {
-        document.querySelector('.mnpreto').style.display = 'none';
-    }
+    let menu = document.querySelector('.mnpreto');
 
+    if (getComputedStyle(menu).display === 'none') {
+        menu.style.display = 'block';
+    } else {
+        menu.style.display = 'none';
+    }
 }
 
 function fpreto() {
-  if  (document.querySelector('.mnpreto').style.display = 'block') {
-    document.querySelector('.mnpreto').style.display = 'none';
-  } else {
-    document.querySelector('.mnpreto').style.display = 'block';
-  }
+    let menu = document.querySelector('.mnpreto');
 
+    if (getComputedStyle(menu).display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
 }
