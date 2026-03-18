@@ -81,18 +81,16 @@ img {
     transform: translateX(-50%);
 }
 .mnpreto img {
-    width: 100%;
      height: auto;
      object-fit: cover;
      display: block;
-     margin: 0 auto;
 }
 
 .colunapreto {
     display: grid;
     object-fit: contain;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 150px;
+    margin-top: 60px;
     flex-wrap: wrap;
     gap: 10px;
     justify-items: center;
@@ -163,4 +161,15 @@ button:active:after {
 
 button:active {
  padding-bottom: 10px;
+}
+
+.fbtn {
+  position: absolute;
+  left: 80%;
+  top: 3%;
+  width: 7em;
+  height: 3em;
+  border: none;
+  background: none;;
+  font-weight: bold;
 }
