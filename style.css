@@ -13,7 +13,7 @@ body {
 }
 img {
     width: 100%;
-    display: flex;
+    display: block;
     margin: auto;
     margin-bottom: 10px;
     position: relative;
@@ -21,9 +21,10 @@ img {
 }
 .container {
     background-color: rgb(255, 255, 255);
-    width: 400px;
+    width: 90%;
+    max-width: 400px;
     margin: 20px auto;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
 }
 .filtros {
@@ -51,7 +52,10 @@ img {
     position: absolute;
     z-index: 1000;
     top: 20px;
-    width: 400px;
+    width: 90%;
+    max-width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
     height: 150px;
     border-radius: 5px;
     text-align: center;
@@ -84,6 +88,7 @@ img {
      height: auto;
      object-fit: cover;
      display: block;
+     margin-bottom: 20px;
 }
 
 .colunapreto {
@@ -165,7 +170,7 @@ button:active {
 
 .fbtn {
   position: absolute;
-  left: 80%;
+  left: 75%;
   top: 3%;
   width: 7em;
   height: 3em;
