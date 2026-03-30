@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(204, 239, 239);
+    min-width: 100dvh;
     background-image: url(img/fundo.png);
     background-size: cover;
     background-position: center;
