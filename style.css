@@ -60,7 +60,7 @@ img {
     height: 21%;
     text-align: center;
 }
-.opcoes {
+.opcoes {   
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -113,6 +113,11 @@ img {
 
   .menu {
     font-size: 14px;
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    height: auto;
   }
 
   .colunapreto {
@@ -130,6 +135,13 @@ img {
 
   .menu, .mnpreto {
     width: 95%;
+  }
+
+  .mnpreto {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
   }
 
   .opcoes {
