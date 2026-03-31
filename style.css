@@ -84,9 +84,11 @@ img {
 
 @media (max-width: 768px) {
   .menu {
-    flex-direction: column;
-    align-items: flex-start;
+    display: none;
+    flex-direction: row;
+    align-items: center;
     gap: 12px;
+    flex-wrap: wrap;
   }
 }
 .opcoes {
@@ -95,24 +97,18 @@ img {
     justify-content: center;
     margin-top: 95px;
     position: absolute;
-    gap: 12px;
     width: 100%;
     align-items: flex-end;
-
-    
 }
 
 @media (max-width: 768px) {
   .opcoes {
-    position: static;
-    top: 50%;          
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 0; 
-    flex-direction: column;
     align-items: center;
-    gap: 10px;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    bottom: 50px;
+    position: absolute;
   }
 }
 
