@@ -115,6 +115,34 @@ img {
   .menu {
     font-size: 14px;
   }
+
+  .colunapreto {
+    grid-template-columns: 1fr;
+  }
+
+  .filtros {
+    width: 100%;
+    max-width: none;
+  }
+
+  .menu, .mnpreto {
+    width: 95%;
+  }
+
+  .opcoes {
+    position: static;
+    margin-top: 20px;
+    left: auto;
+    flex-direction: column;
+  }
+
+  .titulo h1 {
+    font-size: 1.5em;
+  }
+
+  .titulo p {
+    font-size: 1em;
+  }
 }
 
 
