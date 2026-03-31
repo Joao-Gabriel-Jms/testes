@@ -59,14 +59,27 @@ img {
     transform: translateX(-50%);
     height: 20%;
     text-align: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
 }
 .opcoes {
     font-size: 25px;
-    display: block;
+    display: flex;
     justify-content: center;
     margin-top: 95px;
     position: absolute;
-    left:5%
+    left: 5%;
+    gap: 12px;
+    width: 100%;
+    align-items: flex-end;
 
     
 }
@@ -179,6 +192,8 @@ button {
  -webkit-user-select: none;
  vertical-align: middle;
  white-space: nowrap;
+ width: fit-content;
+ max-width: 100%;
 }
 
 button:after {
@@ -225,4 +240,6 @@ button:active {
   border: none;
   background: none;;
   font-weight: bold;
+  width: fit-content;
+  max-width: 100%;
 }
