@@ -106,6 +106,18 @@ img {
 }
 
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .menu {
+    font-size: 14px;
+  }
+}
+
+
 button {
  appearance: button;
  background-color: #1899D6;
