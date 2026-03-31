@@ -57,17 +57,16 @@ img {
     max-width: 400px;
     left: 50%;
     transform: translateX(-50%);
-    height: 21%;
+    height: 20%;
     text-align: center;
 }
-.opcoes {   
+.opcoes {
     font-size: 25px;
-    display: flex;
+    display: block;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 95px;
     position: absolute;
-    left: 10%;
-
+    left:5%
 
     
 }
@@ -113,11 +112,6 @@ img {
 
   .menu {
     font-size: 14px;
-    position: static;
-    top: auto;
-    left: auto;
-    transform: none;
-    height: auto;
   }
 
   .colunapreto {
@@ -135,13 +129,6 @@ img {
 
   .menu, .mnpreto {
     width: 95%;
-  }
-
-  .mnpreto {
-    position: static;
-    top: auto;
-    left: auto;
-    transform: none;
   }
 
   .opcoes {
