@@ -29,11 +29,31 @@ img {
     border-radius: 10px;
 }
 .filtros {
-    background-color: rgb(255, 255, 255);
-    width: 400px;
+    max-width: 380px;
     padding-right: 15px;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .bfiltros {
+    display: flex;
+    position: static;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+.bfiltros {
+  margin-top: 0;
+  display: flex;
+  position: static;
+  margin-left: 0;
+  width: 5em;
+  height: 4em;
 }
 .btn {
     background-color: rgb(255, 255, 255);
@@ -76,12 +96,25 @@ img {
     justify-content: center;
     margin-top: 95px;
     position: absolute;
-    left: 5%;
     gap: 12px;
     width: 100%;
     align-items: flex-end;
 
     
+}
+
+@media (max-width: 768px) {
+  .opcoes {
+    position: static;
+    top: 50%;          
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0; 
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
 }
 
 .mnpreto {
@@ -194,6 +227,7 @@ button {
  white-space: nowrap;
  width: fit-content;
  max-width: 100%;
+
 }
 
 button:after {
