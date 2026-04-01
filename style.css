@@ -106,7 +106,7 @@ img {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    bottom: 25px;
+    bottom: 35px;
     position: absolute;
   }
 }
@@ -124,6 +124,14 @@ img {
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media (max-width: 768px) {
+  .mnpreto {
+    border-radius: 50px;
+}}
+
+
+
 .mnpreto img {
      height: auto;
      object-fit: cover;
