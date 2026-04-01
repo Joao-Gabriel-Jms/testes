@@ -88,6 +88,7 @@ img {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 10px;
   }
 }
 .opcoes {
@@ -114,7 +115,7 @@ img {
 .mnpreto {
     background-color: rgb(255, 255, 255);
     width: 85%;
-    max-width: 430px;
+    max-width: 450px;
     font-size: 15px;
     display: none;
     position: absolute;
@@ -128,6 +129,7 @@ img {
 @media (max-width: 768px) {
   .mnpreto {
     border-radius: 50px;
+    max-width: 400px;
 }}
 
 
