@@ -141,6 +141,13 @@ img {
      margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .mnpreto {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
 .colunapreto {
     display: grid;
     object-fit: contain;
@@ -172,6 +179,7 @@ img {
 @media (max-width: 768px) {
   .mnbranco {
     max-width: 430px;
+    margin-bottom: 15px;
 }}
 
 
@@ -204,10 +212,6 @@ img {
 
   .menu {
     font-size: 14px;
-  }
-
-  .colunapreto {
-    grid-template-columns: 1fr;
   }
 
   .colunapreto img {
