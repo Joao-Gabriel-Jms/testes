@@ -28,3 +28,24 @@ function fpreto() {
         menu.style.display = 'block';
     }
 }
+
+function mbranco() {
+    let menu = document.querySelector('.mnbranco');
+
+    if (getComputedStyle(menu).display === 'none') {
+        menu.style.display = 'block';
+    } else {
+        menu.style.display = 'none';
+    }
+}
+
+
+function fbranco() {
+    let menu = document.querySelector('.mnbranco');
+
+    if (getComputedStyle(menu).display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}

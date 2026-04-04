@@ -112,7 +112,7 @@ img {
   }
 }
 
-.mnpreto {
+.mnpreto{
     background-color: rgb(255, 255, 255);
     width: 85%;
     max-width: 440px;
@@ -142,6 +142,48 @@ img {
 }
 
 .colunapreto {
+    display: grid;
+    object-fit: contain;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mnbranco{
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    max-width: 440px;
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 3%;
+    z-index: 2000;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .mnbranco {
+    max-width: 430px;
+}}
+
+
+
+.mnbranco img {
+     height: auto;
+     object-fit: cover;
+     display: block;
+     margin-bottom: 20px;
+}
+
+.colunabranco {
     display: grid;
     object-fit: contain;
     grid-template-columns: repeat(2, 1fr);
