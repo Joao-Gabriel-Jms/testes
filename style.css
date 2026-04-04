@@ -138,6 +138,8 @@ img {
 @media (max-width: 768px) {
   .mnpreto {
     width: 100%;
+    min-width: 400px;
+     max-width: none;
   }
 }
 
@@ -171,7 +173,8 @@ img {
 
 @media (max-width: 768px) {
   .mnbranco {
-    max-width: 430px;
+    min-width: 400px;
+    max-width: none;
 }}
 
 
