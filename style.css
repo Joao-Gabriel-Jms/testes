@@ -115,7 +115,7 @@ img {
 .mnpreto{
     background-color: rgb(255, 255, 255);
     width: 85%;
-    max-width: 440px;
+    max-width: 400px;
     font-size: 15px;
     display: none;
     position: absolute;
@@ -137,7 +137,7 @@ img {
 
 @media (max-width: 768px) {
   .mnpreto {
-    width: 90%;
+    width: 100%;
     min-height: 90%;
      max-width: 100%;
   }
@@ -159,7 +159,7 @@ img {
 .mnbranco{
     background-color: rgb(255, 255, 255);
     width: 85%;
-    max-width: 440px;
+    max-width: 400px;
     font-size: 15px;
     display: none;
     position: absolute;
