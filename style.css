@@ -125,6 +125,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
+    padding: 5px;
 }
 
 
@@ -169,6 +170,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
+    padding: 5px;
 }
 
 @media (max-width: 768px) {
@@ -213,6 +215,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
+    padding: 5px;
 }
 
 @media (max-width: 768px) {
@@ -256,6 +259,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
+    padding: 5px;
 }
 
 @media (max-width: 768px) {
