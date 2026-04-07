@@ -49,3 +49,45 @@ function fbranco() {
         menu.style.display = 'block';
     }
 }
+
+function mcinza() {
+    let menu = document.querySelector('.mncinza');
+
+    if (getComputedStyle(menu).display === 'none') {
+        menu.style.display = 'block';
+    } else {
+        menu.style.display = 'none';
+    }
+}
+
+
+function fcinza() {
+    let menu = document.querySelector('.mncinza');
+
+    if (getComputedStyle(menu).display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
+
+function mlaranja() {
+    let menu = document.querySelector('.mnlaranja');
+
+    if (getComputedStyle(menu).display === 'none') {
+        menu.style.display = 'block';
+    } else {
+        menu.style.display = 'none';
+    }
+}
+
+
+function flaranja() {
+    let menu = document.querySelector('.mnlaranja');
+
+    if (getComputedStyle(menu).display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
